@@ -42,7 +42,8 @@ const options = {
         target: {
             target: 'nsis',
         },
-        icon: 'electron/icon.ico'
+        icon: 'electron/icon.ico',
+        sign: 'electron/sign.js'
     },
     nsis: {
         deleteAppDataOnUninstall: true,
